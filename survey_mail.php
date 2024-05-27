@@ -59,11 +59,41 @@ function checkRecaptcha($response)
 
 }
 
+//Проверка reCAPTCHA
+if (isset($_POST['g-recaptcha-response'])) {
+    $recaptcha_response = $_POST['g-recaptcha-response'];
+    $recaptcha_json = checkRecaptcha($recaptcha_response);
+    $data['info_captcha'] = $recaptcha_json;
+
+    if (!$recaptcha_json->success || $recaptcha_json->score < 0.6) {
+        $data['result'] = "error";
+        $data['errorType'] = "captcha";
+        $data['info'] = "Ошибка проверки reCAPTCHA";
+        $data['desc'] = "Вы являетесь роботом!";
+        // Отправка результата
+        header('Content-Type: application/json');
+        echo json_encode($data);
+        writeLog("Ошибка отправки письма: {$data['desc']}");
+        writeResponseLog(json_encode($data));
+        exit();
+    }
+
+} else {
+    $data['result'] = "error";
+    $data['errorType'] = "captcha";
+    $data['info'] = "Ошибка проверки reCAPTCHA";
+    $data['desc'] = "Код reCAPTCHA не был отправлен";
+    // Отправка результата
+    header('Content-Type: application/json');
+    echo json_encode($data);
+    exit();
+}
+
 // Будут ли на свадьбе
 if ($_POST['form-visit'] === 'yes') {
-    $visit = "Сможет приехать";
+    $visit = "Да";
 } elseif ($_POST['form-visit'] === 'no') {
-    $visit = "К сожалению не сможет приехать";
+    $visit = "Не сможет быть";
 }  else {
     // Обработка некорректного значения типа шаблона
 }
@@ -95,6 +125,7 @@ if (!error_get_last()) {
 
 
 
+//Отправка в таблицу
 putenv('GOOGLE_APPLICATION_CREDENTIALS=' . __DIR__ . '/cred_new.json');
 
 $client = new Client();
@@ -112,7 +143,7 @@ try {
     // Данные для добавления
     $values = new ValueRange([
         'values' => [
-            [$guest, $visit, $oldvisit, $childvisit, $alco, $date_time]
+            [$guest, $visit, $alco, $oldvisit, $childvisit, $date_time]
         ]
     ]);
 
@@ -130,40 +161,6 @@ try {
     writeLog("Ошибка Google Sheets: " . $e->getMessage());
     writeResponseLog(json_encode($data));
 } 
-
-//Проверка reCAPTCHA
-if (isset($_POST['g-recaptcha-response'])) {
-    $recaptcha_response = $_POST['g-recaptcha-response'];
-    $recaptcha_json = checkRecaptcha($recaptcha_response);
-    $data['info_captcha'] = $recaptcha_json;
-
-    if (!$recaptcha_json->success || $recaptcha_json->score < 0.6) {
-        $data['result'] = "error";
-        $data['errorType'] = "captcha";
-        $data['info'] = "Ошибка проверки reCAPTCHA";
-        $data['desc'] = "Вы являетесь роботом!";
-        // Отправка результата
-        header('Content-Type: application/json');
-        echo json_encode($data);
-        writeLog("Ошибка отправки письма: {$data['desc']}");
-        writeResponseLog(json_encode($data));
-        exit();
-    }
-
-} else {
-    $data['result'] = "error";
-    $data['errorType'] = "captcha";
-    $data['info'] = "Ошибка проверки reCAPTCHA";
-    $data['desc'] = "Код reCAPTCHA не был отправлен";
-    // Отправка результата
-    header('Content-Type: application/json');
-    echo json_encode($data);
-    exit();
-}
-
-
-
-
 
     // Формирование самого письма
     $headers = "Content-Type: text/html; charset=UTF-8";
