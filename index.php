@@ -335,5 +335,7 @@ Template Name: Home
     <!-- <script src="js/vendors.min.js"></script>
 <script src="js/app.min.js"></script> -->
 </body>
+<?php 
+get_footer(); ?>
 
 </html>
