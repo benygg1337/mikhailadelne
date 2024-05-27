@@ -1,6 +1,6 @@
 env:
   PROD_HOST: server198.hosting.reg.ru
-  PROD_PATH: /var/www/u2241995/data/www/marryme-invites.ru/wp-content/themes/wedding
+  PROD_PATH: /var/www/u2241995/data/www/mikhail.adeline.marryme-invites.ru/wp-content/themes/wmikhailadeline
   PROD_USER: u2241995
 # fix
 on:
