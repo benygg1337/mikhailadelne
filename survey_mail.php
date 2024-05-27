@@ -59,6 +59,41 @@ function checkRecaptcha($response)
 
 }
 
+// Будут ли на свадьбе
+if ($_POST['form-visit'] === 'yes') {
+    $visit = "Сможет приехать";
+} elseif ($_POST['form-visit'] === 'no') {
+    $visit = "К сожалению не сможет приехать";
+}  else {
+    // Обработка некорректного значения типа шаблона
+}
+
+
+// Алкогольные напитки
+$alcoInput = $_POST['form-alcko'] ?? null; // Используем оператор нулевого слияния для предотвращения ошибки
+
+if ($alcoInput === 'vinered') {
+    $alco = "Вино красное";
+} elseif ($alcoInput === 'vine') {
+    $alco = "Вино белое";
+} elseif ($alcoInput === 'whisky') {
+    $alco = "Виски";
+}  elseif ($alcoInput === 'other_check') {
+    $otherText = $_POST['otheralco'] ?? 'Пользователь не указал предпочтения';
+    $alco = $otherText;
+} else {
+    $alco = "Не указано";
+}
+
+
+# проверка, что ошибки нет и переменные
+if (!error_get_last()) {
+ 
+    $oldvisit = isset($_POST['old']) && !empty($_POST['old']) ? $_POST['old'] : 'не указано';
+    $childvisit = isset($_POST['child']) && !empty($_POST['child']) ? $_POST['child'] : 'не указано';
+    $guest = isset($_POST['name']) && !empty($_POST['name']) ? $_POST['name'] : 'не указано';
+
+
 
 putenv('GOOGLE_APPLICATION_CREDENTIALS=' . __DIR__ . '/cred_new.json');
 
@@ -127,39 +162,7 @@ if (isset($_POST['g-recaptcha-response'])) {
 }
 
 
-// Будут ли на свадьбе
-if ($_POST['form-visit'] === 'yes') {
-    $visit = "Сможет приехать";
-} elseif ($_POST['form-visit'] === 'no') {
-    $visit = "К сожалению не сможет приехать";
-}  else {
-    // Обработка некорректного значения типа шаблона
-}
 
-
-// Алкогольные напитки
-$alcoInput = $_POST['form-alcko'] ?? null; // Используем оператор нулевого слияния для предотвращения ошибки
-
-if ($alcoInput === 'vinered') {
-    $alco = "Вино красное";
-} elseif ($alcoInput === 'vine') {
-    $alco = "Вино белое";
-} elseif ($alcoInput === 'whisky') {
-    $alco = "Виски";
-}  elseif ($alcoInput === 'other_check') {
-    $otherText = $_POST['otheralco'] ?? 'Пользователь не указал предпочтения';
-    $alco = $otherText;
-} else {
-    $alco = "Не указано";
-}
-
-
-# проверка, что ошибки нет и переменные
-if (!error_get_last()) {
- 
-    $oldvisit = isset($_POST['old']) && !empty($_POST['old']) ? $_POST['old'] : 'не указано';
-    $childvisit = isset($_POST['child']) && !empty($_POST['child']) ? $_POST['child'] : 'не указано';
-    $guest = isset($_POST['name']) && !empty($_POST['name']) ? $_POST['name'] : 'не указано';
 
 
     // Формирование самого письма
