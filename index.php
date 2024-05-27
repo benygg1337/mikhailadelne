@@ -13,7 +13,7 @@ Template Name: Home
                 <div class="in9-page__bg">
                     <div class="in9-border"></div>
                     <div class="in9-page__title">
-                        Михаил и Аделина TEST
+                        Михаил и Аделина TESTtest
                         <span>27/07/2024</span>
                     </div>
                 </div>

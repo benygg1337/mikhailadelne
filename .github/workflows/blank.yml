@@ -1,7 +1,7 @@
 env:
   PROD_HOST: server210.hosting.reg.ru
   PROD_PATH: /var/www/u2576160/data/www/mikhail.adeline.marryme-invites.ru/wp-content/themes/koryakovskyfamily
-  PROD_USER: u2576160
+  PROD_USER: u2241995
 # fix
 on:
   push:
