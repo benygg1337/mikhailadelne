@@ -1,0 +1,96 @@
+[2024-04-19 02:59:19] Сообщение успешно отправлено!
+[2024-04-19 02:59:19 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-19 02:59:34] Сообщение успешно отправлено!
+[2024-04-19 02:59:34 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-19 03:05:41] Сообщение успешно отправлено!
+[2024-04-19 03:05:41 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-19 03:28:41] Сообщение успешно отправлено!
+[2024-04-19 03:28:41 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-19 03:28:58] Сообщение успешно отправлено!
+[2024-04-19 03:28:58 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-19 11:44:37] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-19 11:44:37 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["invalid-input-response"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-19 11:53:51] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-19 11:53:51 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["invalid-input-response"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-19 12:06:18] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-19 12:06:18 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["invalid-input-response"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-19 12:45:21] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-19 12:45:21 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["browser-error"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-19 12:48:08] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-19 12:48:08 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["invalid-input-response"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-19 12:48:39] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-19 12:48:39 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["invalid-input-response"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-19 13:01:01] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-19 13:01:01 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["invalid-input-response"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-19 13:02:53] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-19 13:02:53 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["browser-error"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-19 13:40:28] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-19 13:40:28 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["browser-error"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-20 16:16:35] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-20 16:16:35 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["browser-error"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-20 16:16:46] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-20 16:16:46 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["browser-error"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-20 16:50:10] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-20 16:50:10 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["browser-error"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-04-20 16:50:57] Сообщение успешно отправлено!
+[2024-04-20 16:50:57 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 16:52:48] Сообщение успешно отправлено!
+[2024-04-20 16:52:48 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 16:54:26] Сообщение успешно отправлено!
+[2024-04-20 16:54:26 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 16:54:48] Сообщение успешно отправлено!
+[2024-04-20 16:54:48 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 16:56:52] Сообщение успешно отправлено!
+[2024-04-20 16:56:52 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 16:58:08] Сообщение успешно отправлено!
+[2024-04-20 16:58:08 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 16:59:18] Сообщение успешно отправлено!
+[2024-04-20 16:59:18 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:15:22] Сообщение успешно отправлено!
+[2024-04-20 17:15:22 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:17:22] Сообщение успешно отправлено!
+[2024-04-20 17:17:22 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:19:05] Сообщение успешно отправлено!
+[2024-04-20 17:19:05 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:21:42] Сообщение успешно отправлено!
+[2024-04-20 17:21:42 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:23:47] Сообщение успешно отправлено!
+[2024-04-20 17:23:47 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:30:54] Сообщение успешно отправлено!
+[2024-04-20 17:30:54 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:33:10] Сообщение успешно отправлено!
+[2024-04-20 17:33:10 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:35:37] Сообщение успешно отправлено!
+[2024-04-20 17:35:37 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:35:53] Сообщение успешно отправлено!
+[2024-04-20 17:35:53 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:39:04] Сообщение успешно отправлено!
+[2024-04-20 17:39:04 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:39:10] Сообщение успешно отправлено!
+[2024-04-20 17:39:10 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:40:37] Сообщение успешно отправлено!
+[2024-04-20 17:40:37 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:43:19] Сообщение успешно отправлено!
+[2024-04-20 17:43:19 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:46:52] Сообщение успешно отправлено!
+[2024-04-20 17:46:52 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:49:01] Сообщение успешно отправлено!
+[2024-04-20 17:49:01 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:49:24] Сообщение успешно отправлено!
+[2024-04-20 17:49:24 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:53:09] Сообщение успешно отправлено!
+[2024-04-20 17:53:09 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:53:20] Сообщение успешно отправлено!
+[2024-04-20 17:53:20 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-20 17:53:32] Сообщение успешно отправлено!
+[2024-04-20 17:53:32 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-04-22 13:39:38] Ошибка отправки письма: Вы являетесь роботом!
+[2024-04-22 13:39:38 form_by_survey] Response: {"info_captcha":{"success":false,"error-codes":["browser-error"]},"result":"error","errorType":"captcha","info":"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 reCAPTCHA","desc":"\u0412\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0435\u0441\u044c \u0440\u043e\u0431\u043e\u0442\u043e\u043c!"}
+[2024-05-27 12:48:21] Сообщение успешно отправлено!
+[2024-05-27 12:48:21 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-05-27 12:54:50] Сообщение успешно отправлено!
+[2024-05-27 12:54:50 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-05-27 12:59:33] Сообщение успешно отправлено!
+[2024-05-27 12:59:33 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
+[2024-05-27 13:02:39] Сообщение успешно отправлено!
+[2024-05-27 13:02:39 form_by_survey] Response: {"result":"success","info":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e!"}
