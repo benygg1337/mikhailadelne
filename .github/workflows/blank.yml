@@ -1,0 +1,26 @@
+env:
+  PROD_HOST: server210.hosting.reg.ru
+  PROD_PATH: /var/www/u2576160/data/www/mikhail.adeline.marryme-invites.ru/wp-content/themes/koryakovskyfamily
+  PROD_USER: u2576160
+# fix
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-ssh:
+    name: Deploy to server using rsync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install SSH client and sshpass
+        run: sudo apt-get install openssh-client sshpass -y
+      - name: Trust git directory
+        run: git config --global --add safe.directory /__w/${{ github.event.repository.name }}/${{ github.event.repository.name }}
+      - name: Get latest code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+      - name: Deploy to server
+        run: |
+          sshpass -p '${{ secrets.SSH_PASSWORD }}' rsync -avz -e 'ssh -o StrictHostKeyChecking=no' --exclude='.git*' ./ ${{ env.PROD_USER }}@${{ env.PROD_HOST }}:${{ env.PROD_PATH }}
