@@ -119,9 +119,9 @@ if ($alcoInput === 'vinered') {
 # проверка, что ошибки нет и переменные
 if (!error_get_last()) {
  
-    $oldvisit = isset($_POST['old']) && !empty($_POST['old']) ? $_POST['old'] : 'не указано';
-    $childvisit = isset($_POST['child']) && !empty($_POST['child']) ? $_POST['child'] : 'не указано';
-    $guest = isset($_POST['name']) && !empty($_POST['name']) ? $_POST['name'] : 'не указано';
+    $oldvisit = isset($_POST['old']) && !empty($_POST['old']) ? $_POST['old'] : 'Не указано';
+    $childvisit = isset($_POST['child']) && !empty($_POST['child']) ? $_POST['child'] : 'Не указано';
+    $guest = isset($_POST['name']) && !empty($_POST['name']) ? $_POST['name'] : 'Не указано';
 
 
 
@@ -167,7 +167,7 @@ try {
     $title = "Результат опроса";
     $body = "
     <h1>Запрос заполнил: $guest </h1>
-    <b>Присутствие</b><b>$visit</b><br>
+    <b>Присутствие:</b> <b>$visit</b><br>
     <b>Количество детей:</b> <b>$childvisit</b><br>
     <b>Количество взрослых:</b> <b>$oldvisit</b><br>
     <b>Предпочтения по напиткам:</b> $alco <br>
