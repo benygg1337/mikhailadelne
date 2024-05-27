@@ -57,29 +57,7 @@ function checkRecaptcha($response)
 
     return $recaptcha_json;
 
-}
 
-
-putenv('GOOGLE_APPLICATION_CREDENTIALS=' . __DIR__ . '/cred_new.json');
-
-$client = new Client();
-$client->useApplicationDefaultCredentials();
-$client->setApplicationName("marryme");
-$client->setScopes([
-    'https://www.googleapis.com/auth/spreadsheets'
-]);
-
-try {
-    $service = new Sheets($client);
-    $spreadsheetId = '1kCwBuRzrQJpEN_7zz_pIbX52NBp9B2xZ-MNbbFDtse4'; // Ваш ID таблицы
-    $date_time = date("Y-m-d H:i:s");
-
-    // Данные для добавления
-    $values = new ValueRange([
-        'values' => [
-            [$_POST['name'], $_POST['form-visit'], $_POST['form-alcko'], $_POST['old'], $_POST['child'], $date_time]
-        ]
-    ]);
 
     // Параметры добавления данных
     $params = [
@@ -196,8 +174,28 @@ if (!error_get_last()) {
     // Получатель письма
     $mail->addAddress('loko419@yandex.ru');
 
+    
+    //Отправляем в таблицу
+    putenv('GOOGLE_APPLICATION_CREDENTIALS=' . __DIR__ . '/cred_new.json');
 
+$client = new Client();
+$client->useApplicationDefaultCredentials();
+$client->setApplicationName("marryme");
+$client->setScopes([
+    'https://www.googleapis.com/auth/spreadsheets'
+]);
 
+try {
+    $service = new Sheets($client);
+    $spreadsheetId = '1kCwBuRzrQJpEN_7zz_pIbX52NBp9B2xZ-MNbbFDtse4'; // Ваш ID таблицы
+    $date_time = date("Y-m-d H:i:s");
+
+    // Данные для добавления
+    $values = new ValueRange([
+        'values' => [
+            [$guest, $visit, $oldvisit, $childvisit, $alco, $date_time]
+        ]
+    ]);
 
 //Определяем переменные файлов
     $file_arr = [
