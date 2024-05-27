@@ -115,12 +115,9 @@ if ($alcoInput === 'vinered') {
 # проверка, что ошибки нет и переменные
 if (!error_get_last()) {
  
-    $oldvisit = $_POST['old'];
-    $childvisit = $_POST['child'];
-    $guest = $_POST['name'];
-
-
-
+    $oldvisit = isset($_POST['old']) && !empty($_POST['old']) ? $_POST['old'] : 'не указано';
+    $childvisit = isset($_POST['child']) && !empty($_POST['child']) ? $_POST['child'] : 'не указано';
+    $guest = isset($_POST['name']) && !empty($_POST['name']) ? $_POST['name'] : 'не указано';
 
 
     // Формирование самого письма
@@ -129,8 +126,8 @@ if (!error_get_last()) {
     $body = "
     <h1>Запрос заполнил: $guest </h1>
     <b>$visit</b><br>
-    <b>Количество детей:</b> <b>$oldvisit</b><br>
-    <b>Количество взрослых:</b> <b>$childvisit</b><br>
+    <b>Количество детей:</b> <b>$childvisit</b><br>
+    <b>Количество взрослых:</b> <b>$oldvisit</b><br>
     <b>Предпочтения по напиткам:</b> $alco <br>
     ";
 
