@@ -139,18 +139,18 @@ $client->setScopes([
 ]);
 
 
-// // Очистка и приведение типов данных
-// $guest = trim($guest);
-// $visit = trim($visit);
-// $alco = trim($alco);
-// $oldvisit = trim($oldvisit);
-// $childvisit = trim($childvisit);
+// Очистка и приведение типов данных
+$guest = trim($guest);
+$visit = trim($visit);
+$alco = trim($alco);
+$oldvisit = trim($oldvisit);
+$childvisit = trim($childvisit);
 
-// // Преобразование данных в целочисленные значения
-// $guest = $guest;
-// $visit = $visit;
-// $oldvisit = (int)$oldvisit;
-// $childvisit = (int)$childvisit;
+// Преобразование данных в целочисленные значения
+$guest = $guest;
+$visit = $visit;
+$oldvisit = (int)$oldvisit;
+$childvisit = (int)$childvisit;
 
 try {
     $service = new Sheets($client);
