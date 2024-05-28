@@ -138,6 +138,32 @@ $client->setScopes([
     'https://www.googleapis.com/auth/spreadsheets'
 ]);
 
+// Пример журналирования данных до их отправки
+error_log("Guest: $guest");
+error_log("Visit: $visit");
+error_log("Alco: $alco");
+error_log("Old visit: $oldvisit");
+error_log("Child visit: $childvisit");
+
+// Очистка и приведение типов данных
+$guest = trim($guest);
+$visit = trim($visit);
+$alco = trim($alco);
+$oldvisit = trim($oldvisit);
+$childvisit = trim($childvisit);
+
+// Преобразование данных в целочисленные значения
+$guest = $guest;
+$visit = $visit;
+$oldvisit = (int)$oldvisit;
+$childvisit = (int)$childvisit;
+
+// Журналирование данных после очистки
+error_log("Cleaned Guest: $guest");
+error_log("Cleaned Visit: $visit");
+error_log("Cleaned Old visit: $oldvisit");
+error_log("Cleaned Child visit: $childvisit");
+
 try {
     $service = new Sheets($client);
     $spreadsheetId = '1kCwBuRzrQJpEN_7zz_pIbX52NBp9B2xZ-MNbbFDtse4'; // Ваш ID таблицы
