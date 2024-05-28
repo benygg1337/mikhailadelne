@@ -100,20 +100,23 @@ if ($_POST['form-visit'] === 'yes') {
 
 
 // Алкогольные напитки
-$alcoInput = $_POST['form-alcko'] ?? null; // Используем оператор нулевого слияния для предотвращения ошибки
-
-if ($alcoInput === 'vinered') {
-    $alco = "Вино красное";
-} elseif ($alcoInput === 'vine') {
-    $alco = "Вино белое";
-} elseif ($alcoInput === 'whisky') {
-    $alco = "Виски";
-}  elseif ($alcoInput === 'other_check') {
-    $otherText = $_POST['otheralco'] ?? 'Пользователь не указал предпочтения';
-    $alco = $otherText;
-} else {
-    $alco = "Не указано";
+$alco = [];
+if (isset($_POST['form-alcko'])) {
+    foreach ($_POST['form-alcko'] as $alcoInput) {
+        if ($alcoInput === 'vinered') {
+            $alco[] = "Вино красное";
+        } elseif ($alcoInput === 'vine') {
+            $alco[] = "Вино белое";
+        } elseif ($alcoInput === 'whisky') {
+            $alco[] = "Виски";
+        }
+    }
 }
+$otherText = $_POST['otheralco'] ?? '';
+if (!empty($otherText)) {
+    $alco[] = $otherText;
+}
+$alco = !empty($alco) ? implode(', ', $alco) : 'Не указано';
 
 
 # проверка, что ошибки нет и переменные

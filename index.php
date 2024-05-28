@@ -140,7 +140,7 @@ Template Name: Home
                                     банкетному залу, а также, может быть, готовите сюрприз или хотите получить ответы на
                                     интересующие вопросы?</div>
                                 <div class="in9-questions__text_1">Вам с радостью поможет наш ведущий Георгий<br>
-                                <a href="https://vk.com/georgysedyh">https://vk.com/georgysedyh</a>
+                                    <a href="https://vk.com/georgysedyh">https://vk.com/georgysedyh</a>
                                 </div>
                             </div>
                             <div class="in9-form__title in9-title">Опрос</div>
@@ -172,19 +172,20 @@ Template Name: Home
                                     </div>
                                     <div class="in9-form__subtitle">Что Вы предпочитаете из алкогольных напитков?</div>
                                     <div class="in9-form__item">
-                                        <input id="radio-red-wine" type="checkbox" name="form-alcko" value="vinered"
+                                        <input id="radio-red-wine" type="checkbox" name="form-alcko[]" value="vinered"
                                             data-value="" class="in9-form-input-radio">
                                         <label for="radio-red-wine" class="in9-form-radio">Вино красное</label>
 
-                                        <input id="radio-white-wine" type="checkbox" name="form-alcko" value="vine"
+                                        <input id="radio-white-wine" type="checkbox" name="form-alcko[]" value="vine"
                                             data-value="" class="in9-form-input-radio">
                                         <label for="radio-white-wine" class="in9-form-radio">Вино белое</label>
 
-                                        <input id="radio-whiskey" type="checkbox" name="form-alcko" value="whisky"
+                                        <input id="radio-whiskey" type="checkbox" name="form-alcko[]" value="whisky"
                                             data-value="" class="in9-form-input-radio">
                                         <label for="radio-whiskey" class="in9-form-radio">Виски</label>
+
                                         <label for="other" class="in9-radio__other">Другое
-                                            <textarea name="otheralco" value="otheralco" data-value="Ваше пожелание"
+                                            <textarea name="otheralco" data-value="Ваше пожелание"
                                                 class="in9-survey-other" rows="8"></textarea>
                                         </label>
                                     </div>
