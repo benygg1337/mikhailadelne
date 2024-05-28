@@ -140,7 +140,7 @@ Template Name: Home
                                     банкетному залу, а также, может быть, готовите сюрприз или хотите получить ответы на
                                     интересующие вопросы?</div>
                                 <div class="in9-questions__text_1">Вам с радостью поможет наш ведущий Георгий<br>
-                                    https://vk.com/georgysedyh
+                                <a href="https://vk.com/georgysedyh">https://vk.com/georgysedyh</a>
                                 </div>
                             </div>
                             <div class="in9-form__title in9-title">Опрос</div>

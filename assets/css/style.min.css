@@ -23452,7 +23452,7 @@ input[type=radio]._active+label:before {
     font-weight: 500;
     margin: 0px auto 15px auto;
     padding: 0px 8px;
-    width: 95%;
+    width: 93%;
 }
 
 @media (max-width: 767.98px) {
@@ -29171,3 +29171,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     font-family: "BadScript";
     font-size: calc(20px + 70 * ((100vw - 320px) / 1600));
 }
+
+.in9-questions__text_1 a{
+    color: #000;
+    }
+    .in9-questions__text_1 a:hover{
+    transition: all 0.5s ease 0s;
+    color: #A8C991;
+    }

@@ -125,42 +125,44 @@ if (!error_get_last()) {
 
 
 
-//Отправка в таблицу
-putenv('GOOGLE_APPLICATION_CREDENTIALS=' . __DIR__ . '/cred_new.json');
+// Функция для отправки данных в Google Таблицу
+function sendToGoogleSheets($guest, $visit, $alco, $oldvisit, $childvisit) {
+    putenv('GOOGLE_APPLICATION_CREDENTIALS=' . __DIR__ . '/cred_new.json');
 
-$client = new Client();
-$client->useApplicationDefaultCredentials();
-$client->setApplicationName("marryme");
-$client->setScopes([
-    'https://www.googleapis.com/auth/spreadsheets'
-]);
-
-try {
-    $service = new Sheets($client);
-    $spreadsheetId = '1kCwBuRzrQJpEN_7zz_pIbX52NBp9B2xZ-MNbbFDtse4'; // Ваш ID таблицы
-    $date_time = date("Y-m-d H:i:s");
-
-    // Данные для добавления
-    $values = new ValueRange([
-        'values' => [
-            [$guest, $visit, $alco, $oldvisit, $childvisit, $date_time]
-        ]
+    $client = new \Google_Client();
+    $client->useApplicationDefaultCredentials();
+    $client->setApplicationName("marryme");
+    $client->setScopes([
+        'https://www.googleapis.com/auth/spreadsheets'
     ]);
 
-    // Параметры добавления данных
-    $params = [
-        'valueInputOption' => 'RAW'
-    ];
+    try {
+        $service = new \Google_Service_Sheets($client);
+        $spreadsheetId = '1kCwBuRzrQJpEN_7zz_pIbX52NBp9B2xZ-MNbbFDtse4'; // Ваш ID таблицы
+        $date_time = date("Y-m-d H:i:s");
 
-    $range = 'A2'; // Допустим, вы хотите начать добавление с A1
-    $service->spreadsheets_values->append($spreadsheetId, $range, $values, $params);
-} catch (Exception $e) {
-    // Обработка ошибки
-    $data['result'] = "error";
-    $data['info'] = "Произошла ошибка при добавлении данных в Google Sheets: " . $e->getMessage();
-    writeLog("Ошибка Google Sheets: " . $e->getMessage());
-    writeResponseLog(json_encode($data));
-} 
+        // Данные для добавления
+        $values = new \Google_Service_Sheets_ValueRange([
+            'values' => [
+                [$guest, $visit, $alco, (int)$oldvisit, (int)$childvisit, $date_time]
+            ]
+        ]);
+
+        // Параметры добавления данных
+        $params = [
+            'valueInputOption' => 'USER_ENTERED' // Используйте USER_ENTERED, чтобы Google Sheets распознал числовые значения
+        ];
+
+        $range = 'A2'; // Допустим, вы хотите начать добавление с A2
+        $service->spreadsheets_values->append($spreadsheetId, $range, $values, $params);
+    } catch (Exception $e) {
+        // Обработка ошибки
+        $data['result'] = "error";
+        $data['info'] = "Произошла ошибка при добавлении данных в Google Sheets: " . $e->getMessage();
+        writeLog("Ошибка Google Sheets: " . $e->getMessage());
+        writeResponseLog(json_encode($data));
+    }
+}
 
     // Формирование самого письма
     $headers = "Content-Type: text/html; charset=UTF-8";
