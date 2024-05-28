@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: Home
-*/?>
+*/ ?>
 
 <?php get_header(); ?>
 
@@ -38,17 +38,20 @@ Template Name: Home
                         <div class="in9-wishes__row">
                             <div class="in9-wishes__column">
                                 <div class="in9-wishes__image">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes01.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes01.jpg"
+                                        alt="" />
                                 </div>
                             </div>
                             <div class="in9-wishes__column">
                                 <div class="in9-wishes__image">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes02.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes02.jpg"
+                                        alt="" />
                                 </div>
                             </div>
                             <div class="in9-wishes__column">
                                 <div class="in9-wishes__image">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes03.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes03.jpg"
+                                        alt="" />
                                 </div>
                             </div>
                         </div>
@@ -94,7 +97,8 @@ Template Name: Home
                         <div class="in9-place__row">
                             <div class="in9-place__column">
                                 <div class="in9-place__item">
-                                    <div class="in9-place__image"><img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/place01.jpg"
+                                    <div class="in9-place__image"><img
+                                            src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/place01.jpg"
                                             alt="" />
                                     </div>
                                     <div class="in9-place__block">
@@ -107,7 +111,8 @@ Template Name: Home
                             </div>
                             <div class="in9-place__column">
                                 <div class="in9-place__item">
-                                    <div class="in9-place__image"><img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/place02.jpg"
+                                    <div class="in9-place__image"><img
+                                            src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/place02.jpg"
                                             alt="" />
                                     </div>
                                     <div class="in9-place__block">
@@ -130,20 +135,27 @@ Template Name: Home
                                 <div class="in9-questions__text_1">Пожалуйста, не дарите нам цветы. Мы очень
                                     расстроимся, когда не сможем забрать их с собой.
                                     Возьмите вместо них лотерейные билетики;)</div>
+                                <div class="in9-questions__subtitle">Если Вы потерялись, не можете найти парковку и путь
+                                    к
+                                    банкетному залу, а также, может быть, готовите сюрприз или хотите получить ответы на
+                                    интересующие вопросы?</div>
+                                <div class="in9-questions__text_1">Вам с радостью поможет наш ведущий Георгий<br>
+                                    https://vk.com/georgysedyh
+                                </div>
                             </div>
                             <div class="in9-form__title in9-title">Опрос</div>
                             <div class="in9-form__regret">Мы сожалеем, что вы не сможете присутствовать.</div>
-                            <form enctype="multipart/form-data"
-                            method="POST" action="/wp-content/themes/mikhailadeline/survey_mail.php"  class="in9-form__form">
+                            <form enctype="multipart/form-data" method="POST"
+                                action="/wp-content/themes/mikhailadeline/survey_mail.php" class="in9-form__form">
                                 <input type="hidden" id="attendanceStatus" name="attendanceStatus" value="">
                                 <div class="in9-form__block">
                                     <div class="in9-form__subtitle">Планируете ли вы прийти к нам на праздник?</div>
                                     <div class="in9-form__item">
-                                        <input id="radio-transfer-yes" type="radio" name="form-visit" value="yes" data-value=""
-                                            class="in9-form-input-radio">
+                                        <input id="radio-transfer-yes" type="radio" name="form-visit" value="yes"
+                                            data-value="" class="in9-form-input-radio">
                                         <label for="radio-transfer-yes" class="in9-form-radio">Да, конечно</label>
-                                        <input id="radio-transfer-no" type="radio" name="form-visit" value="no"  data-value=""
-                                            class="in9-form-input-radio">
+                                        <input id="radio-transfer-no" type="radio" name="form-visit" value="no"
+                                            data-value="" class="in9-form-input-radio">
                                         <label for="radio-transfer-no" class="in9-form-radio">Не смогу</label>
                                     </div>
                                     <div class="in9-form__subtitle">В количестве скольки человек вы будете
@@ -160,16 +172,16 @@ Template Name: Home
                                     </div>
                                     <div class="in9-form__subtitle">Что Вы предпочитаете из алкогольных напитков?</div>
                                     <div class="in9-form__item">
-                                        <input id="radio-red-wine" type="checkbox" name="form-alcko" value="vinered" data-value=""
-                                            class="in9-form-input-radio">
+                                        <input id="radio-red-wine" type="checkbox" name="form-alcko" value="vinered"
+                                            data-value="" class="in9-form-input-radio">
                                         <label for="radio-red-wine" class="in9-form-radio">Вино красное</label>
 
-                                        <input id="radio-white-wine" type="checkbox" name="form-alcko" value="vine" data-value=""
-                                            class="in9-form-input-radio">
+                                        <input id="radio-white-wine" type="checkbox" name="form-alcko" value="vine"
+                                            data-value="" class="in9-form-input-radio">
                                         <label for="radio-white-wine" class="in9-form-radio">Вино белое</label>
 
-                                        <input id="radio-whiskey" type="checkbox" name="form-alcko" value="whisky" data-value=""
-                                            class="in9-form-input-radio">
+                                        <input id="radio-whiskey" type="checkbox" name="form-alcko" value="whisky"
+                                            data-value="" class="in9-form-input-radio">
                                         <label for="radio-whiskey" class="in9-form-radio">Виски</label>
                                         <label for="other" class="in9-radio__other">Другое
                                             <textarea name="otheralco" value="otheralco" data-value="Ваше пожелание"
@@ -230,17 +242,20 @@ Template Name: Home
                                 <div class="in9-footer__row">
                                     <div class="in9-footer__column">
                                         <div class="in9-footer__image">
-                                            <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes04.jpg" alt="" />
+                                            <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes04.jpg"
+                                                alt="" />
                                         </div>
                                     </div>
                                     <div class="in9-footer__column">
                                         <div class="in9-footer__image">
-                                            <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes05.jpg" alt="" />
+                                            <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes05.jpg"
+                                                alt="" />
                                         </div>
                                     </div>
                                     <div class="in9-footer__column">
                                         <div class="in9-footer__image">
-                                            <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes06.jpg" alt="" />
+                                            <img src="<?php bloginfo('template_url'); ?>/assets/img/invitas/MikhailAdeline/wishes06.jpg"
+                                                alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -335,7 +350,7 @@ Template Name: Home
     <!-- <script src="js/vendors.min.js"></script>
 <script src="js/app.min.js"></script> -->
 </body>
-<?php 
+<?php
 get_footer(); ?>
 
 </html>
