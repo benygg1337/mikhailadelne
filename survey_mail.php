@@ -1,9 +1,5 @@
 <?php
 
-// ini_set('display_errors', 1);
-// ini_set('display_startup_errors', 1);
-// error_reporting(E_ALL);
-
 // Файлы phpmailer
 require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/php/PHPMailer.php';
@@ -211,6 +207,7 @@ try {
     $mail->setFrom('noreply@marryme-invites.ru', 'Свадебный сайт'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
+    $mail->addAddress('Karabeshkinaaa@gmail.com');
     $mail->addAddress('loko419@yandex.ru');
 
 
