@@ -118,7 +118,7 @@ Template Name: Home
                                     <div class="in9-place__block">
                                         <div class="in9-place__subtitle">Кафе “PARADISE”</div>
                                         <a target="_blank"
-                                            href="https://yandex.ru/maps/11225/chelyabinsk-oblast/house/ulitsa_lenina_35/YkgYcAZjSEACQFtvfX5zeXprZA==/?ll=61.614383%2C55.228369&z=18"
+                                            href="https://yandex.ru/maps/11225/chelyabinsk-oblast/house/ulitsa_lenina_29/YkgYcAZkQUMGQFtvfX5zeX5hZw==/?ll=61.614924%2C55.228163&z=18.86"
                                             class="in9-place__btn in9-btn_w">Посмотреть на карте</a>
                                     </div>
                                 </div>
