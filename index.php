@@ -220,9 +220,9 @@ Template Name: Home
                                     <div class="in9-contacts__item">
                                         <div class="in9-contacts__name">
                                             Аделина
-                                            <span>8(902) 862-12-67</span>
+                                            <span>8(902) 862-12-77</span>
                                         </div>
-                                        <a href="tel:+79028621267" class="in9-contacts__btn in9-btn_w">Позвонить
+                                        <a href="tel:+79028621277" class="in9-contacts__btn in9-btn_w">Позвонить
                                             невесте</a>
                                     </div>
                                 </div>
