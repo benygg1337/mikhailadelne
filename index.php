@@ -63,7 +63,7 @@ Template Name: Home
                         <div class="in9-program__block">
                             <p></p>
                             <div class="in9-program__item">
-                                <div class="in9-program__time">08:30</div>
+                                <div class="in9-program__time">08:00</div>
                                 <div class="in9-program__box">
                                     <div class="in9-program__subtitle">Выкуп невесты</div>
                                     <div class="in9-program__text">Присутствие по желанию
